@@ -10,6 +10,6 @@ namespace App.Common
         Task<IEnumerable<TModel>> Get();
         Task<TModel?> Get(Guid id);
         Task<TModel> Create(TModel model);
-        Task<TModel> Delete();
+        Task<TModel> Delete(Guid id);
     }
 }

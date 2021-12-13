@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{E349A60C-31AE-459F-AD24-B8CBDD7E8ACC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{421C4BD5-7F85-4716-8D27-8FB8CC4ADE0D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "doc", "doc", "{200E46CC-6221-45E7-8870-AA72600151F3}"
+	ProjectSection(SolutionItems) = preProject
+		doc\TestCase.MD = doc\TestCase.MD
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App", "src\App\App.csproj", "{86529178-808C-46DC-9D98-B16AA8F95E4D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{86529178-808C-46DC-9D98-B16AA8F95E4D} = {E349A60C-31AE-459F-AD24-B8CBDD7E8ACC}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{86529178-808C-46DC-9D98-B16AA8F95E4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86529178-808C-46DC-9D98-B16AA8F95E4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86529178-808C-46DC-9D98-B16AA8F95E4D}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{86529178-808C-46DC-9D98-B16AA8F95E4D}.Debug|x64.Build.0 = Debug|Any CPU
+		{86529178-808C-46DC-9D98-B16AA8F95E4D}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{86529178-808C-46DC-9D98-B16AA8F95E4D}.Debug|x86.Build.0 = Debug|Any CPU
+		{86529178-808C-46DC-9D98-B16AA8F95E4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86529178-808C-46DC-9D98-B16AA8F95E4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86529178-808C-46DC-9D98-B16AA8F95E4D}.Release|x64.ActiveCfg = Release|Any CPU
+		{86529178-808C-46DC-9D98-B16AA8F95E4D}.Release|x64.Build.0 = Release|Any CPU
+		{86529178-808C-46DC-9D98-B16AA8F95E4D}.Release|x86.ActiveCfg = Release|Any CPU
+		{86529178-808C-46DC-9D98-B16AA8F95E4D}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

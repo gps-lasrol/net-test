@@ -5,6 +5,6 @@ namespace App.Common
 {
     public interface IGetRequestHandler<T>
     {
-        Task<T> Execute(Guid id);
+        Task<T?> Execute(Guid id);
     }
 }

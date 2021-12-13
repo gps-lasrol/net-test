@@ -4,12 +4,12 @@ using System.Threading.Tasks;
 
 namespace App.Common
 {
-    public interface IDbClient<T>
+    public interface IDbClient<TKey, TModel>
     {
-        IList<T> Database { get; }
-        Task<IEnumerable<T>> Get();
-        Task<T> Get(Guid id);
-        Task<T> Create(T model);
-        Task<T> Delete();
+        IDictionary<TKey, TModel> Database { get; }
+        Task<IEnumerable<TModel>> Get();
+        Task<TModel?> Get(Guid id);
+        Task<TModel> Create(TModel model);
+        Task<TModel> Delete();
     }
 }
